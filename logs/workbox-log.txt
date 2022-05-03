@@ -1,0 +1,23 @@
+C:\Users\Games\practice\laravel\tall\studentL-earn-path>npx workbox-cli wizard
+? What is the root of your web app (i.e. which directory do you deploy)? public/
+? Which file types would you like to precache? css, ico, js, json, txt
+? Where would you like your service worker file to be saved? public/sw.js
+? Where would you like to save these configuration options? workbox-config.js
+? Does your web app manifest include search parameter(s) in the 'start_url', other than 'utm_' or 'fbclid' (like '?sourc
+e=pwa')? No
+To build your service worker, run
+
+  workbox generateSW workbox-config.js
+
+as part of a build process. See https://goo.gl/fdTQBf for details.
+You can further customize your service worker by making changes to workbox-config.js. See https://goo.gl/gVo87N for details.
+
+C:\Users\Games\practice\laravel\tall\studentL-earn-path>npx workbox-cli generateSW workbox-config.js
+Using configuration from C:/Users/Games/practice/laravel/tall/studentL-earn-path/workbox-config.js.
+css/app.css is 4.21 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+The service worker files were written to:
+  • C:/Users/Games/practice/laravel/tall/studentL-earn-path/public/sw.js
+  • C:/Users/Games/practice/laravel/tall/studentL-earn-path/public/sw.js.map
+  • C:/Users/Games/practice/laravel/tall/studentL-earn-path/public/workbox-ef776085.js
+  • C:/Users/Games/practice/laravel/tall/studentL-earn-path/public/workbox-ef776085.js.map
+The service worker will precache 4 URLs, totaling 263 kB.
