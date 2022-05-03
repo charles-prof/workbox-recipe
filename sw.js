@@ -18,4 +18,4 @@ staticResourceCache();
 
 imageCache();
 
-// offlineFallback();
+offlineFallback();
